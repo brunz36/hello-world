@@ -2,7 +2,98 @@ html {
   text-size-adjust: 100%;
 }
 
+h1 {
+  font-family: "Courier New", sans-serif;
+  text-align: center;
+  padding: 1em;
+  text-shadow: 2px 2px #87867f;
+  border-radius: .5em;
+  background-color: #bdbbb1;
+  margin: 1em;
+  padding: .5em;
+}
+
+nav { font-family: Helvetica, sans-serif; }
+
+nav a {
+  text-decoration: none;
+  padding: 1em;
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+  box-shadow: 5px 5px #000;
+  border-bottom-right-radius: 1em;
+  margin-bottom: 1em;
+  background-color: #87867f;
+}
+
+nav ul {
+  list-style-type: none;
+  padding-left: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a:link { color: #000; }
+nav a:visited { color: #000;}
+nav a:hover { color: #ccd0e1;}
+
 body {
-  margin: 0;
-  font: 16px / 1 sans-serif;
+  background-image: url(images/circuit.jpg);
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+p {
+  border-radius: 1em;
+  background-color: #bdbbb1;
+  margin: 1em;
+  padding: 1.5em;
+}
+
+#aol {
+  font-family: Impact;
+  font-weight: bold;
+  text-decoration: none;
+  letter-spacing: .1em;
+}
+
+#floatleft {
+  float: left;
+  margin: 2em 0em 0em 2em;
+}
+
+.monty {
+  display: block;
+  margin: auto;
+  width: 95%;
+  padding-bottom: 1em;
+}
+
+.clear {
+  clear: both;
+}
+
+.contact{
+  padding: 2em;
+  margin: 1em;
+  border-radius: 1em;
+  background-color: #87867f;
+
+}
+
+a:link { color: #000; }
+a:visited { color: #000;}
+a:hover { color: #ccd0e1;}
+
+footer {
+  border-radius: 1em;
+  background-color: #bdbbb1;
+  margin: 1em;
+  padding: .5em;
+  text-align: center;
+  font-size: 70%;
 }
